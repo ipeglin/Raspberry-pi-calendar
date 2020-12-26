@@ -9,6 +9,7 @@ if ! [[ $LOCATE_PATH == "" ]]; then
 	echo "Locate if stored at: $LOCATE_PATH"
 else
 	echo "Locate does not exist on the computer"
+	sudo apt-get install mlocate
 fi
 }
 
