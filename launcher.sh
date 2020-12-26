@@ -19,4 +19,4 @@ firefox $WEBSITE_PATH
 }
 
 check_for_mlocate
-launch_website check_for_firefox
+launch_website
