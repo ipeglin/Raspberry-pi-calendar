@@ -1,0 +1,53 @@
+body, div, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 480px;
+    min-width: 480px;
+
+    max-height: 800px;
+    min-height: 800px;
+}
+
+#container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 480px;
+}
+
+#date-container {
+    padding-top: 50px;
+    height: 50px;
+    width: 300px;
+    text-align: right;
+    align-itpxs: center;
+    color: white;
+}
+
+#date-container h2 {
+    font-family: 'Gruppo';font-size: 30px;
+    padding: 15px 20px 0 0;
+}
+
+#time-container {
+    /* background-color:green; */
+    width: 300px;
+    text-align: left;
+    color: white;
+}
+
+#time-container h1 {
+    font-size: 45px;
+    padding: 5px 0 0 35px;
+    font-family: 'Didact Gothic';font-size:50px;
+}
+
+#time-container h3 {
+    position: relative;
+    left: 180px;
+    top: -56px;
+    font-family: 'Didact Gothic';font-size: 22px;
+}
